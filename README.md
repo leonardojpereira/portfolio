@@ -25,7 +25,7 @@ Esse projeto trata-se do meu portfolio pessoal, onde mostro alguns dos meus proj
 ## :link: Deploy
 
 ```
-https://leonardojpereira.github.io/twitter-landing-page/
+ https://leonardojpereira.github.io/portfolio/
 ```
 
 ## Imagem / Icones

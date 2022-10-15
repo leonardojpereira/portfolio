@@ -57,6 +57,21 @@ document.onmouseover = function (element) {
         description.textContent = "Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo";
     }
 
+    else if (element.target.classList.contains('react')) {
+        titleElement.textContent = "REACTJS";
+        description.textContent = "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.";
+    }
+
+    else if (element.target.classList.contains('java')) {
+        titleElement.textContent = "JAVA";
+        description.textContent = "Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.";
+    }
+
+    else if (element.target.classList.contains('learning')) {
+        titleElement.textContent = "O QUE ESTOU APRENDENDO?";
+        description.textContent = "No momento, estou me aprofundando em ReactJS, Styled Components, TypeScript e Database";
+    }
+
     else {
         titleElement.textContent = "";
         description.textContent = "*passe o cursor do mouse por cima do card para visualizar a descrição*";

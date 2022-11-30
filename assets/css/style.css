@@ -556,11 +556,18 @@ nav a {
 }
 
 .certified-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.first-column-certified {
+    display: flex;
+
+}
+
+.second-column-certified {
+    display: flex;
+
 }
 
 .certified-mimic {
@@ -748,6 +755,11 @@ footer p {
 
     .about-photo img {
         height: 260px;
+    }
+
+    .first-column-certified, .second-column-certified {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 

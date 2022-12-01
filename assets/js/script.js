@@ -78,6 +78,21 @@ document.onmouseover = function (element) {
     }
 }
 
+//function see more certifications
+
+function extendCertification() {
+    const hiddenColumn = document.querySelector('.hidden');
+    if(hiddenColumn.style.display == 'none') {
+        hiddenColumn.style.display = 'flex';
+        document.querySelector('#extCertified').textContent = 'Ocultar >>'
+    } else {
+        hiddenColumn.style.display = 'none'
+        document.querySelector('#extCertified').textContent = 'Ver mais >>'
+    }
+
+
+}
+
 //open popup image
 
 document.querySelectorAll('.certified-img').forEach(image => {

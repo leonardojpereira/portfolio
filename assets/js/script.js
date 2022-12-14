@@ -84,7 +84,7 @@ function extendCertification() {
     const hiddenColumn = document.querySelector('.hidden');
     if(hiddenColumn.style.display == 'none') {
         hiddenColumn.style.display = 'flex';
-        document.querySelector('#extCertified').textContent = 'Ocultar >>'
+        document.querySelector('#extCertified').textContent = 'Ocultar'
     } else {
         hiddenColumn.style.display = 'none'
         document.querySelector('#extCertified').textContent = 'Ver mais >>'

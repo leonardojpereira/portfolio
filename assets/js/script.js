@@ -47,9 +47,9 @@ document.onmouseover = function (element) {
         description.textContent = "Git é o sistema de controle de versão open source mais usado no mundo atualmente! Ele é usado para controlar o histórico de alterações de arquivos e principalmente de projetos de desenvolvimento de software. Ele permite mais flexibilidade no fluxo de trabalho, segurança e desempenho.";
     }
 
-    else if (element.target.classList.contains('github')) {
-        titleElement.textContent = "GITHUB";
-        description.textContent = "GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.";
+    else if (element.target.classList.contains('firebase')) {
+        titleElement.textContent = "FIREBASE";
+        description.textContent = "O Firebase Realtime Database é um banco de dados NoSQL hospedado na nuvem. Com ele, você armazena e sincroniza dados entre os seus usuários em tempo real. O Cloud Firestore permite armazenar, sincronizar e consultar dados de apps em escala global.";
     }
 
     else if (element.target.classList.contains('bs')) {
@@ -69,7 +69,7 @@ document.onmouseover = function (element) {
 
     else if (element.target.classList.contains('learning')) {
         titleElement.textContent = "O QUE ESTOU APRENDENDO?";
-        description.textContent = "No momento, estou me aprofundando em ReactJS, Styled Components, TypeScript e Database";
+        description.textContent = "No momento, estou me aprofundando em ReactJS, Node.js, TypeScript e MySQL.";
     }
 
     else {
@@ -82,12 +82,12 @@ document.onmouseover = function (element) {
 
 function extendCertification() {
     const hiddenColumn = document.querySelector('.hidden');
-    if(hiddenColumn.style.display == 'none') {
+    if (hiddenColumn.style.display == 'none') {
         hiddenColumn.style.display = 'flex';
-        document.querySelector('#extCertified').textContent = 'Ocultar'
+        document.querySelector('#extCertified').innerHTML = `Ocultar <i class="fa-solid fa-angles-right"></i>`
     } else {
         hiddenColumn.style.display = 'none'
-        document.querySelector('#extCertified').textContent = 'Ver mais >>'
+        document.querySelector('#extCertified').innerHTML = `Ver mais <i class="fa-solid fa-angles-right"></i>`
     }
 
 

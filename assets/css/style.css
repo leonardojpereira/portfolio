@@ -549,6 +549,49 @@ nav a {
     font-size: 20px;
 }
 
+.html-title-color {
+    color: #ff7816;
+}
+
+.css-title-color {
+    color: #2196f3;
+
+}
+
+.js-title-color {
+    color: #ffdf00;
+}
+
+.react-title-color {
+    color: #00e1d6
+}
+
+.git-title-color {
+    color: #df4b33;
+}
+
+.firebase-title-color {
+    color: #f6820c;
+}
+
+.bs-title-color {
+    color: #9160be;
+}
+
+.java-title-color-first {
+    color: #de8e2f;
+}
+
+.java-title-color-second {
+    color: #427595;
+}
+
+.learning-title-color {
+    color: #fb7b76;
+}
+
+
+
 /*certification */
 
 #certification {

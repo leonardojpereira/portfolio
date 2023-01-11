@@ -549,6 +549,82 @@ nav a {
     font-size: 20px;
 }
 
+/*level skills*/
+
+.level-container {
+    margin-top: 32px;
+}
+
+.level-container span {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.level-bar {
+    background-color: #FFF;
+    width: 230px;
+    height: 9px;
+    margin-top: 4px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.level-bar-color {
+    background-color: #2196f3;
+    width: 100px;
+    height: 9px;
+    border-radius: 5px;
+}
+
+.html-level {
+    width: 95%;
+    background-color: #ff7816;
+}
+
+.css-level {
+    width: 90%;
+    background-color: #2196f3;
+}
+
+.js-level {
+    width: 75%;
+    background-color: #ffdf00;
+}
+
+.react-level {
+    width: 65%;
+    background-color: #00e1d6;
+}
+
+.git-level {
+    width: 70%;
+    background-color: #df4b33;
+}
+
+.firebase-level {
+    width: 50%;
+    background-color: #f6820c;
+}
+
+.bs-level {
+    width: 65%;
+    background-color: #9160be;
+}
+
+.java-level {
+    width: 20%;
+    background-color: #de8e2f;
+    
+}
+
+.java-level-twin {
+    width: 20%;
+    background-color: #427595;
+    position: absolute;
+    top: 0;
+    right: 63%;
+}
+
 .html-title-color {
     color: #ff7816;
 }
@@ -563,7 +639,7 @@ nav a {
 }
 
 .react-title-color {
-    color: #00e1d6
+    color: #00e1d6;
 }
 
 .git-title-color {
@@ -764,8 +840,12 @@ footer p {
 
 
     .skills-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
 
+    }
+
+    .skills-description {
+        margin-top: 22px;
     }
 
     .grid-skills-container {
@@ -1009,6 +1089,10 @@ footer p {
 
     .about-photo img {
         height: 220px;
+    }
+
+    .level-bar {
+        width: 90%;
     }
 }
 

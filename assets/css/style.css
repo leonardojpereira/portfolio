@@ -1038,11 +1038,6 @@ footer p {
     .btn:visited {
         padding: 14px 50px;
     }
-
-    .about-container {
-        margin: 0 0 0 50px;
-    }
-
  
     .contact-container {
         transform: translate(-50%, -50%);

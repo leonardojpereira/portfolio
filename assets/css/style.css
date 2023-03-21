@@ -581,8 +581,10 @@ nav a {
 }
 
 .grid-skill-img {
-    max-width: 80px;
+    min-width: 80px;
     max-height: 80px;
+    width: 100%;
+    pointer-events: none;
 }
 
 
@@ -632,52 +634,53 @@ nav a {
 }
 
 .html-level {
-    width: 95%;
     background-color: #ff7816;
+    animation: html-fill 2s forwards;
 }
 
 .css-level {
-    width: 90%;
     background-color: #2196f3;
+    animation: css-fill 2s forwards;
 }
 
 .js-level {
-    width: 75%;
     background-color: #ffdf00;
+    animation: js-fill 2s forwards;
 }
 
 .react-level {
-    width: 65%;
     background-color: #00e1d6;
+    animation: react-fill 2s forwards;
 }
 
 .git-level {
-    width: 70%;
     background-color: #df4b33;
+    animation: git-fill 2s forwards;
 }
 
 .firebase-level {
-    width: 50%;
     background-color: #f6820c;
+    animation: firebase-fill 2s forwards;
 }
 
 .bs-level {
-    width: 65%;
     background-color: #9160be;
+    animation: bs-fill 2s forwards;
 }
 
 .java-level {
-    width: 20%;
     background-color: #de8e2f;
+    animation: java-fill 2s forwards;
     
 }
 
 .java-level-twin {
-    width: 20%;
+
     background-color: #427595;
     position: absolute;
     top: 0;
     right: 63%;
+    animation: java-twin-fill 2s forwards;
 }
 
 .html-title-color {
@@ -721,7 +724,85 @@ nav a {
     color: #fb7b76;
 }
 
+/* animation level bar */
 
+@keyframes html-fill{
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+} 
+
+@keyframes css-fill{
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes js-fill{
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes react-fill{
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes git-fill{
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes firebase-fill{
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes bs-fill{
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes java-fill{
+    0%{
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes java-twin-fill{
+    100% {
+        width: 20%;
+    }
+}
 
 /*certification */
 

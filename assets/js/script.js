@@ -92,7 +92,7 @@ document.onmouseover = function (element) {
         titleElement.innerHTML = `<span class="react-title-color">REACTJS</span>`;
         description.textContent = "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.";
         levelContainer.innerHTML = `
-        <span>65%</span>
+        <span>70%</span>
         <div class="level-bar">
             <div class="level-bar-color react-level"></div>
         </div>`;
